@@ -21,7 +21,7 @@ var (
     downloadDir = "base-storage"
 )
 
-// Сontext example using in http middleware
+// Context example using in http middleware
 type ContextKey string
 
 const ContextRequestIdKey ContextKey = "requestId"
